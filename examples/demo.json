@@ -1,0 +1,13 @@
+{
+  "participants": ["P1", "P2", "P3"],
+  "events": [
+    { "id": "p3-1", "participant": "P3", "seq": 1, "type": "local" },
+    { "id": "p3-2", "participant": "P3", "seq": 2, "type": "recv", "refSendId": "p2-3" },
+    { "id": "p1-2", "participant": "P1", "seq": 2, "type": "send", "messageId": "m1", "to": "P2" },
+    { "id": "p2-3", "participant": "P2", "seq": 3, "type": "send", "messageId": "m2", "to": "P3" },
+    { "id": "p1-3", "participant": "P1", "seq": 3, "type": "send", "messageId": "m3", "to": "P1" },
+    { "id": "p2-1", "participant": "P2", "seq": 1, "type": "local" },
+    { "id": "p1-1", "participant": "P1", "seq": 1, "type": "local" },
+    { "id": "p2-2", "participant": "P2", "seq": 2, "type": "recv", "refSendId": "p1-2" }
+  ]
+}

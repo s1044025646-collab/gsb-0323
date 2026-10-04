@@ -1,0 +1,9 @@
+{
+  "participants": ["A", "B"],
+  "events": [
+    { "id": "a1", "participant": "A", "seq": 1, "type": "recv", "refSendId": "b2" },
+    { "id": "a2", "participant": "A", "seq": 2, "type": "send", "messageId": "m1", "to": "B" },
+    { "id": "b1", "participant": "B", "seq": 1, "type": "recv", "refSendId": "a2" },
+    { "id": "b2", "participant": "B", "seq": 2, "type": "send", "messageId": "m2", "to": "A" }
+  ]
+}
