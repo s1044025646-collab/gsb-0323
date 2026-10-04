@@ -1,0 +1,14 @@
+{
+  "participants": ["A", "B", "C"],
+  "events": [
+    { "id": "c1", "participant": "C", "seq": 1, "type": "local" },
+    { "id": "b2", "participant": "B", "seq": 2, "type": "recv", "msgId": "m1" },
+    { "id": "a1", "participant": "A", "seq": 1, "type": "local" },
+    { "id": "c2", "participant": "C", "seq": 2, "type": "recv", "msgId": "m2" },
+    { "id": "b1", "participant": "B", "seq": 1, "type": "local" },
+    { "id": "b3", "participant": "B", "seq": 3, "type": "send", "msgId": "m2", "receiver": "C" },
+    { "id": "a3", "participant": "A", "seq": 3, "type": "local" },
+    { "id": "a4", "participant": "A", "seq": 4, "type": "send", "msgId": "m3", "receiver": "C" },
+    { "id": "a2", "participant": "A", "seq": 2, "type": "send", "msgId": "m1", "receiver": "B" }
+  ]
+}
